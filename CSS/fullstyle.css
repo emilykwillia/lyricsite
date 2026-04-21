@@ -1,0 +1,322 @@
+
+/* Page 1*/
+
+body {
+    height: 2000px;
+    text-decoration: none!important;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#type {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    height: 500px;
+    color: #333333;
+    font-size: 30px;
+    animation-name: introAnimate;
+    animation-direction: forwards;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-timing-function: ease-in-ease-out;
+}
+
+@keyframes introAnimate {
+    from {
+        color: blue;
+    }
+    to {
+        color: white;
+    }
+    }
+
+    #time {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+    color: blue;
+    font-size: 100px;
+    position: absolute;
+    text-decoration: none!important;
+    position: absolute;
+    animation-name: slide-right;
+    animation-delay: 2s;
+    animation-direction: forwards;
+     animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+    
+@keyframes slide-right {
+    from {
+        color: blue;
+        transform: translateX(0);
+         text-shadow:1px 1px 10px blue, 1px 1px 10px blue ;
+    }
+    to {
+        color: white;
+        transform: translateX(1000px);
+         text-shadow:1px 1px 10px white, 1px 1px 10px #15e4ff;
+    }
+}
+
+/* Page 2 */
+
+
+.try {
+    background-color: rgb(0, 156, 156);
+    color :white;
+    text-decoration: none!important;
+    font-size: 75px;
+     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+
+}
+#capture {
+    background-color: rgb(0, 156, 156);
+    color :rgb(0, 156, 156);
+    text-decoration: none!important;
+    font-size: 25px;
+     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    animation-name: captureAnimate;
+    animation-delay: 1s;
+    animation-duration: .5s;
+    animation-iteration-count: 10;
+    animation-play-state: running;
+    animation-timing-function: ease;
+    
+}
+
+@keyframes captureAnimate {
+    from {
+    font-size: 25px
+    background-color: aqua;
+      text-shadow:1px 1px 10px blue, 1px 1px 10px blue ;
+    }
+    to {
+    font-size: 75px;
+    background-color: rgb(255, 255, 255);
+      text-shadow:1px 1px 10px rgb(0, 145, 255), 1px 1px 10px rgb(255, 255, 255) ;
+    }
+}
+
+/* Page 3 */
+
+
+.feeling {
+  position: absolute;
+  color: goldenrod;
+  font-size: 2rem;
+  font-weight: bold;
+  white-space: nowrap;
+  animation-name: horizontal, vertical;
+  animation-direction: alternate, alternate;
+  animation-duration: 5s, 5s;
+  animation-iteration-count:  infinite, infinite;
+  animation-timing-function: linear, linear;
+}
+
+#it {
+    color: goldenrod;
+    font-weight: bold italic;
+    text-shadow: 1px 1px 10px rgb(255, 217, 0), 1px 1px 10px rgb(255, 217, 0);
+    text-decoration: none;
+    font-size: 100px;
+     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+@keyframes horizontal {
+  from { 
+    left: 0%;
+    font-size: 25px;
+ }
+  to { 
+    left: calc(100% - 150px);
+    font-size: 100px;
+ } 
+}
+
+
+@keyframes vertical {
+  from {
+     top: 0%;
+    font-size: 100px; }
+  to { 
+    top: calc(100% - 50px);
+    font-size: 25px } 
+}
+
+/* Page 4 */
+#type2 {
+    background-color: rgb(147, 203, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    height: 500px;
+    color: #333333;
+    font-size: 30px;
+    animation-name: introAnimate;
+    animation-direction: forwards;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-timing-function: ease-in-ease-out;
+}
+
+@keyframes introAnimate {
+    from {
+        color: rgb(147, 203, 255);
+    }
+    to {
+        color: white;
+    }
+    }
+
+    #time2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(147, 203, 255);
+    color: rgb(147, 203, 255);
+    font-size: 100px;
+    position: absolute;
+    text-decoration: none!important;
+    position: absolute;
+    animation-name: slide-left;
+    animation-delay: 2s;
+    animation-direction: forwards;
+     animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+    
+@keyframes slide-left {
+    from {
+        color: rgb(147, 203, 255);
+        transform: translateX(1000px);
+         text-shadow:1px 1px 10px rgb(147, 203, 255), 1px 1px 10px rgb(147, 203, 255) ;
+    }
+    to {
+        color: white;
+        transform: translateX(0px);
+         text-shadow:1px 1px 10px white, 1px 1px 10px #15e4ff;
+    }
+}
+
+/*Page 5*/
+
+.really {
+ color: white;
+ margin-left: 100px;
+ font-size: 120px;
+ width: 800px;
+ animation-name: slide-left1;
+    animation-delay: 0s;
+    animation-direction: forwards;
+     animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+.see {
+color: white;
+margin-left: 600px;
+width: 800px;
+text-decoration: none!important;
+font-size: 250px;
+ animation-name: slide-left2;
+    animation-delay: 2s;
+    animation-direction: forwards;
+     animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+.mind {
+width: 900px;
+margin-left: 700px;
+color: rgb(255, 255, 255);
+font-size: 100px;
+ animation-name: slide-left3;
+    animation-delay: 3s;
+    animation-direction: forwards;
+     animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes slide-left1 {
+    from {
+        transform: translateX(1000px);
+        color: white;
+
+    }
+    to {
+        transform: translateX(0px);
+        color: rgb(246, 176, 13);
+
+    }
+}
+
+@keyframes slide-left2 {
+    from {
+        transform: translateX(1000px);
+        color: white
+    }
+    to {
+        transform: translateX(0px);
+        color: rgb(255, 217, 0);
+text-shadow:1px 1px 10px white, 1px 1px 10px #f6ff00;
+    }
+}
+
+@keyframes slide-left3 {
+    from {
+        transform: translateX(1000px);
+        color: white;
+
+    }
+    to {
+        transform: translateX(0px);
+        color: rgb(246, 176, 13);
+    }
+}
